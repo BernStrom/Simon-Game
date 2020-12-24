@@ -32,8 +32,8 @@ const playSound = name => {
 
 // Animation effects for the button.
 const animatePress = currentColor => {
-    $(currentColor).addClass("pressed");
-    setTimeout(() => $(currentColor).removeClass("pressed"), 100);
+    $(`#${currentColor}`).addClass("pressed");
+    setTimeout(() => $(`#${currentColor}`).removeClass("pressed"), 100);
 }
 
 nextSequence();
