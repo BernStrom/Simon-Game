@@ -9,7 +9,7 @@
 # Simon Game
 
 <p align="center">
-    <img width="100%" src="images/Simon-Game-Demo.gif" alt="Simon Game Demo"> 
+    <img width="100%" src="public/Simon-Game-Demo.gif" alt="Simon Game Demo"> 
 </p>
 
 ## :wave: Intros!
