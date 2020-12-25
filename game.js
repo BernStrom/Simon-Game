@@ -1,7 +1,7 @@
 const buttonColors = ["red", "blue", "green", "yellow"];
 
 // User and game pattern sequence
-const gamePattern = [];
+let gamePattern = [];
 let userClickedPattern = [];
 
 // Game level status
@@ -53,7 +53,10 @@ const checkAnswer = currentIndex => {
         setTimeout(() => $("body").removeClass("game-over"), 200);
 
         // Changes the game title to "Game Over" and notifies user to press any key to restart the game.
-        $("#level-title").text("Game Over, Press Any Key to Restart");  
+        $("#level-title").text("Game Over, Press Any Key to Restart");
+        
+        // Resets the game to the beginning if the user selected the wrong button.
+        startOver();
     }
 }
 
@@ -92,4 +95,11 @@ const playSound = name => {
 const animatePress = currentColor => {
     $(`#${currentColor}`).addClass("pressed");
     setTimeout(() => $(`#${currentColor}`).removeClass("pressed"), 100);
+}
+
+// Resets the game status and start over at the beginning.
+const startOver = () => {
+    gamelevel = 0;
+    gamePattern = [];
+    gameStarted = false;
 }
