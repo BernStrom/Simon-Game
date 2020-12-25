@@ -6,6 +6,8 @@
   <a href="#memo-disclaimer">Disclaimer</a>
 </p>
 
+<br />
+
 # Simon Game
 
 <p align="center">
@@ -18,7 +20,7 @@ Simon Game is a gaming web app that challenges your brain memory and features a 
 
 Have fun with this retro 70s game and feedbacks are always welcome, especially if the game brings back feelings of nostalgia! 😊 👾
 
-## :game: How To Play
+## :joystick: How To Play
 
 1. To start the game, press any key on the keyboard to initialize.
 
