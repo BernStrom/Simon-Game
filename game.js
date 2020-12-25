@@ -43,8 +43,17 @@ const checkAnswer = currentIndex => {
             // Calls nextSequence() after a 1000 millisecond delay.
             setTimeout(() => nextSequence(), 1000);
         }
+
     } else {
+        // Plays the "wrong" audio when user selects the color button that doesn't match the gamePattern array elements sequence.
         playSound("wrong");
+
+        // Adds a flash effect to the background body of the page by adding the CSS style class "game-over".
+        $("body").addClass("game-over");
+        setTimeout(() => $("body").removeClass("game-over"), 200);
+
+        // Changes the game title to "Game Over" and notifies user to press any key to restart the game.
+        $("#level-title").text("Game Over, Press Any Key to Restart");  
     }
 }
 
