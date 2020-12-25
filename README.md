@@ -3,6 +3,7 @@
   <a href="#game-how-to-play">Game Instructions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#pushpin-objectives">Objectives</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-technical-components">Technical Components</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark-attribution">Attribution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-disclaimer">Disclaimer</a>
 </p>
 
@@ -55,6 +56,10 @@ Have fun with this retro 70s game and feedbacks are always welcome, especially i
 * ES6+ vanilla JavaScript
 
 * HTMLAudioElement object for game audio effects
+
+## :bookmark: Attribution
+
+Browser icon by Freepik, on [Flaticon](https://www.flaticon.com/authors/freepik "Freepik @ Flaticon")
 
 ## :memo: Disclaimer
 The contents of these pages are provided as an information guide only. While every effort is made in preparing the material for publication, no responsibility is accepted by or on behalf of the owner(s) for any errors, omissions or misleading statements on these pages or any site to which these pages connect. Although every effort is made to ensure the reliability of listed sites this cannot be taken as an endorsement of these sites.
