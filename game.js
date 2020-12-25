@@ -34,15 +34,17 @@ $(".btn").on("click", event => {
 });
 
 // Checks if the last user selected button and userClickedPattern matches the gamePattern array elements.
-const checkAnswer = currentLevel => {
+const checkAnswer = currentIndex => {
     // Checks if the most recent user answer is the same as the game pattern.
-    if (userClickedPattern[currentLevel] === gamePattern[currentLevel]) {
+    if (userClickedPattern[currentIndex] === gamePattern[currentIndex]) {
 
-        // Checks if the user sequence matches the game pattern.
+        // Checks if the user sequence matches the game sequence.
         if (userClickedPattern.length === gamePattern.length) {
             // Calls nextSequence() after a 1000 millisecond delay.
             setTimeout(() => nextSequence(), 1000);
         }
+    } else {
+        playSound("wrong");
     }
 }
 
