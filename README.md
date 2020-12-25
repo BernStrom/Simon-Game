@@ -8,7 +8,9 @@
 
 <br />
 
-# Simon Game
+<h1 align="center">
+  Simon Game
+</h1>
 
 <p align="center">
     <img width="100%" src="public/Simon-Game-Demo.gif" alt="Simon Game Demo"> 
